@@ -1,0 +1,147 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("images/mario-ting.jpg");
+    
+}
+
+.htp{
+margin-left: 5%;
+margin-top: 50px;
+
+
+}
+.htp p{
+    float: left;
+}
+.htp img{
+    margin-left: 10%;
+}
+
+.wb{
+    background-color: white;
+    width: 50%;
+    margin-top: 30px;
+    padding: 10px 0px;
+    margin-left:auto ;
+    margin-right: auto;
+    border-radius: 4px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#canvas{
+   
+    border-radius: 4px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#knapkasse{
+    text-align: center;
+}
+#knap{
+    width: 100px;
+    height: 40px;
+    background-color: forestgreen;
+    color: white;
+    border:none;
+    border-radius: 3px;
+}
+#points{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.OS{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;  
+}
+#safeTimer{
+    height: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#safeTimerDisplay{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+   
+}
+#et{
+    text-align: center;
+}
+.background{
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19); 
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.startGame{
+
+    text-align: center;
+    
+    
+}
+.billeder{
+    margin-top: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.billeder img{
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+@media only screen and (max-width: 1400px) {
+.billeder img{
+    width: 280px;
+}
+
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .billeder img{
+        width: 250px;
+    }
+    
+    }
+
+
+    @media only screen and (max-width: 1250px) {
+        .billeder img{
+            width: 350px;
+        }
+        .billeder {
+            width: 600px;
+            height: 400px;
+        }
+        #b3{
+            visibility: hidden;
+            
+        }
+        #b2{
+            visibility: hidden;
+        }
+        }
+
+        @media only screen and (max-width: 900px) {
+            .billeder{
+                width: 400px;
+            }
+            .wb {
+                width: 400px;
+            }
+        }
+
+    
